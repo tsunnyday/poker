@@ -14,5 +14,6 @@ std::vector<Card> sort_hand_by_rank(std::vector<Card> hand);
 std::vector<Card> sort_hand_by_suit(std::vector<Card> hand);
 bool compare_rank(Card a, Card b);
 bool compare_suit(Card a, Card b);
+std::vector<std::pair<int, Card::Rank>> get_counts(std::vector<Card> hand);
 
 #endif
